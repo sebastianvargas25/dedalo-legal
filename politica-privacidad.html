@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — Dédalo</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #F7F5F3;
+    color: #1C1917;
+    line-height: 1.55;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 64px;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .actualizado { color: #78716C; font-size: 0.85rem; margin-bottom: 28px; }
+  h2 { font-size: 1.15rem; margin-top: 34px; border-bottom: 1px solid #E7E5E4; padding-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #E7E5E4; vertical-align: top; }
+  th { background: #EDE9E3; }
+  code { background: #EDE9E3; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+  .placeholder { background: #FEF3C7; padding: 2px 6px; border-radius: 4px; }
+  a { color: #0F766E; }
+  @media (max-width: 480px) {
+    table, thead, tbody, th, td, tr { display: block; }
+    th { display: none; }
+    td { border-bottom: none; padding: 4px 0; }
+    tr { padding-bottom: 12px; border-bottom: 1px solid #E7E5E4; }
+    td::before { content: attr(data-label); display: block; font-weight: 700; font-size: 0.78rem; color: #78716C; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de Dédalo</h1>
+  <p class="actualizado">Última actualización: 2 de septiembre de 2026</p>
+
+  <h2>Responsable</h2>
+  <p>
+    Dédalo es desarrollada y operada por
+    <strong>SyJ Company</strong>. Contacto para consultas sobre privacidad o
+    para ejercer tus derechos sobre tus datos:
+    sebvarcu25@gmail.com.
+  </p>
+
+  <h2>Qué datos recopilamos y para qué</h2>
+  <table>
+    <thead><tr><th>Dato</th><th>Para qué se usa</th></tr></thead>
+    <tbody>
+      <tr><td data-label="Dato">Nombre, nombre de usuario, correo y teléfono</td><td data-label="Uso">Crear tu cuenta, identificarte dentro de tu empresa y que tu administrador pueda contactarte</td></tr>
+      <tr><td data-label="Dato">Ubicación precisa</td><td data-label="Uso">Registrar dónde marcaste entrada/salida y como referencia de la obra — solo se captura al usar esa función, nunca en segundo plano</td></tr>
+      <tr><td data-label="Dato">Fotos y comprobantes de gasto</td><td data-label="Uso">Documentar el avance de un proyecto y respaldar gastos reales</td></tr>
+      <tr><td data-label="Dato">Horas trabajadas, tarifa, pagos y adelantos</td><td data-label="Uso">Calcular y administrar tu nómina</td></tr>
+      <tr><td data-label="Dato">Identificador de usuario y token de notificaciones push</td><td data-label="Uso">Mantener tu sesión y enviarte recordatorios dentro de la app</td></tr>
+      <tr><td data-label="Dato">Datos de la empresa, proyectos e inventario de herramientas</td><td data-label="Uso">Funcionalidad principal del servicio (coordinar equipo, materiales y equipo de trabajo)</td></tr>
+    </tbody>
+  </table>
+  <p>No mostramos anuncios ni usamos rastreo publicitario de ningún tipo.</p>
+
+  <h2>Datos guardados en tu teléfono</h2>
+  <p>
+    Dédalo funciona sin señal. Para lograrlo guarda en el propio teléfono, en
+    una base de datos local de la app:
+  </p>
+  <ul>
+    <li>
+      una copia de los datos mínimos con los que trabajás (tus empresas, tus
+      proyectos activos, el resumen de tu jornada y el inventario que
+      consultaste), marcada siempre como dato guardado sin conexión;
+    </li>
+    <li>
+      las operaciones que hiciste sin señal (horas, gastos, solicitudes de
+      material, bitácora) hasta que se sincronizan;
+    </li>
+    <li>
+      una copia local de las fotos y comprobantes que adjuntaste, hasta que
+      terminan de subirse.
+    </li>
+  </ul>
+  <p>
+    Esa copia local <strong>no</strong> incluye contraseñas ni claves de
+    sesión: la sesión vive en el llavero cifrado del sistema operativo. Se
+    borra cuando cerrás sesión, cuando cambiás de empresa (se borra la de la
+    empresa anterior) y cuando desinstalás la app. Nada de eso se envía a
+    nadie más que al servicio.
+  </p>
+
+  <h2>Con quién se comparte</h2>
+  <p>
+    Tus datos se procesan a través de dos proveedores de infraestructura,
+    que actúan como encargados del tratamiento (procesan los datos para que
+    el servicio funcione, no los usan para sus propios fines):
+  </p>
+  <ul>
+    <li><strong>Supabase</strong> — base de datos, autenticación y almacenamiento de archivos.</li>
+    <li><strong>Expo</strong> (Expo Push Notifications) — entrega de notificaciones push.</li>
+  </ul>
+  <p>No vendemos ni compartimos tus datos con terceros con fines publicitarios.</p>
+
+  <h2>Conservación</h2>
+  <p>
+    Mientras tu cuenta esté activa, conservamos tus datos para que la app
+    funcione. Los registros de horas, pagos y comprobantes pueden estar
+    sujetos a plazos de conservación por obligaciones legales/laborales que
+    tu empresa debe confirmar con su contador.
+  </p>
+
+  <h2>Eliminar tu cuenta</h2>
+  <p>
+    Podés eliminar tu cuenta en cualquier momento desde
+    <strong>Ajustes → Eliminar mi cuenta</strong>, sin necesidad de contactar
+    a nadie. Esto borra tu perfil y tu historial operativo de forma
+    permanente. Las referencias de auditoría que una empresa deba conservar
+    quedan anonimizadas y ya no permiten identificar tu cuenta. Si no podés
+    ingresar a la app, podés solicitar la eliminación escribiendo a
+    <a href="mailto:sebvarcu25@gmail.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20D%C3%A9dalo">sebvarcu25@gmail.com</a>.
+  </p>
+
+  <h2>Seguridad</h2>
+  <p>
+    El acceso a los datos de tu empresa requiere una cuenta real (correo y
+    contraseña) y está restringido por reglas de acceso a nivel de base de
+    datos (row level security): nadie fuera de tu empresa puede leer o
+    modificar tus datos, y dentro de tu empresa cada quien solo ve lo que le
+    corresponde según su rol.
+  </p>
+
+  <h2>Permisos del dispositivo</h2>
+  <ul>
+    <li><strong>Ubicación</strong>: solo se usa al marcar entrada/salida o fijar la ubicación de una obra. Podés negarla y seguir usando la app; algunas funciones no van a estar disponibles.</li>
+    <li><strong>Fotos</strong>: solo accedemos a la foto que elijas adjuntar, nunca a tu galería completa.</li>
+    <li><strong>Notificaciones</strong>: se usan para recordatorios que te deja tu administrador. Podés desactivarlas desde los ajustes de tu teléfono.</li>
+  </ul>
+
+  <h2>Cambios a esta política</h2>
+  <p>Si cambiamos esta política, actualizamos la fecha de arriba y lo avisamos dentro de la app.</p>
+</main>
+</body>
+</html>
